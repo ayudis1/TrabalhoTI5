@@ -1,0 +1,9 @@
+package application
+
+import javafx.scene.layout.BorderPane
+
+component cadastroProdutor {
+	BorderPane {
+		//TODO Add Nodes
+	}
+}
