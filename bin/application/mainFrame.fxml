@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controladorJanelas">
    <children>
       <Text fx:id="lblTeste" fill="#908f8f" layoutX="116.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem-vindo" textAlignment="CENTER" wrappingWidth="247.13671875">
          <font>
@@ -23,19 +23,19 @@
             <Font size="19.0" />
          </font>
       </Text>
-      <Button fx:id="btnEntrar" layoutX="98.0" layoutY="549.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="284.0" text="Entrar">
+      <Button fx:id="btnEntrar" layoutX="98.0" layoutY="549.0" mnemonicParsing="false" onAction="#trocaJanela" prefHeight="51.0" prefWidth="284.0" text="Entrar">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button fx:id="btnCadastrar" layoutX="97.0" layoutY="613.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="284.0" text="Cadastrar">
+      <Button fx:id="btnCadastrar" layoutX="97.0" layoutY="613.0" mnemonicParsing="false" onAction="#trocaJanela" prefHeight="51.0" prefWidth="284.0" text="Cadastrar">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <ImageView fitHeight="246.0" fitWidth="319.0" layoutX="82.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="240.0" fitWidth="319.0" layoutX="85.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../PinClipart.com_brocoli-clip-art_2333786.png" />
+            <Image url="@../imagens/PinClipart.com_brocoli-clip-art_2333786.png" />
          </image>
       </ImageView>
    </children>
